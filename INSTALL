@@ -1,0 +1,9 @@
+Building Tedcoin
+
+See doc/readme-qt.rst for instructions on building Tedcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Tedcoin.
+
+See doc/build-*.txt for instructions on building tedcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Tedcoin.

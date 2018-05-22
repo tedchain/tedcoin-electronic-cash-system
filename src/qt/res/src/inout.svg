@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg3039" inkscape:export-filename="/home/orion/projects2/bitcoin/tx_mined.png" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" sodipodi:docname="inout3.svg" inkscape:export-xdpi="12" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:export-ydpi="12" xmlns:cc="http://creativecommons.org/ns#" inkscape:version="0.48.0 r9654" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px" height="120px"
+	 viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve">
+<sodipodi:namedview  id="namedview3041" inkscape:current-layer="layer7" inkscape:window-y="25" inkscape:window-x="0" inkscape:cy="67.287943" inkscape:cx="87.12655" inkscape:zoom="1" showgrid="false" inkscape:window-height="1127" inkscape:window-width="1920" inkscape:pageshadow="2" inkscape:pageopacity="0" guidetolerance="10" gridtolerance="10" objecttolerance="10" bordercolor="#666666" borderopacity="1" pagecolor="#ffffff" inkscape:window-maximized="1">
+	</sodipodi:namedview>
+<g id="layer2" inkscape:label="base" inkscape:groupmode="layer" display="none">
+	<path id="path3053" sodipodi:nodetypes="cccccccccccccc" inkscape:connector-curvature="0" display="inline" fill="#AFAFAF" d="
+		M45.375,17c-13.984,0.241-24.968,3.29-37.438,9.594c-8.992,21.872-6.681,46.393-1.969,69c26.191,13.153,55.595,12.978,81.75-0.219
+		c3.852-9.729,1.6-12.8,2.375-23.156c-6.176,0.205-12.964-4.531-15.906,3.031c-1.484,4.473,1.932,7.396-5.031,8.094
+		c-16.132,5.193-31.435,5.797-47.281-1.062C19.715,68.368,18.6,53.657,22.5,40c16.868-6.642,33.121-6.12,50.031-0.156
+		c1.285,5.855,1.574,5.763,2.375,11.688c5.558,0.439,14.738,1.804,16.406-5.531c0.541-9.992-1.94-14.375-4.125-20.312
+		C73.71,21.035,59.804,16.699,45.375,17z"/>
+</g>
+<g id="layer3" inkscape:label="arrow_out" inkscape:groupmode="layer" display="none">
+	<path id="path3844" sodipodi:nodetypes="cccccscccc" inkscape:connector-curvature="0" display="inline" fill="#6E6E6E" d="
+		M63.983,65.481l0.269-9.515l36.16-0.194l-7.414-8.758l3.799-7.573c0,0,23.438,20.797,22.5,21.185
+		c-0.938,0.389-23.17,22.738-23.17,22.738l-3.129-8.932l7.549-8.564L63.983,65.481z"/>
+</g>
+<g id="layer4" inkscape:label="arrow_in" inkscape:groupmode="layer" display="none">
+	<path id="path4080" sodipodi:nodetypes="cccccscccc" inkscape:connector-curvature="0" display="inline" fill="#6E6E6E" d="
+		M99.287,65.481l-0.268-9.515l-36.161-0.194l7.769-6.283l-4.152-9.28c0,0-23.438,20.029-22.5,20.417
+		c0.938,0.389,23.17,20.971,23.17,20.971l3.482-9.639l-7.902-6.09L99.287,65.481z"/>
+</g>
+<g id="layer7" inkscape:label="mined" inkscape:groupmode="layer">
+	<path id="path4103" sodipodi:nodetypes="cccccccccccccc" inkscape:connector-curvature="0" fill="#A9A9A9" d="M9.438,99.758
+		L78.146,33.11l-4.466-4.81L67.153,8.375l18.552,6.527l4.809,3.779l4.811-4.81l11.68,12.368l-6.184,4.81l13.742,14.085
+		l-12.711,14.429L87.078,43.417l-65.273,70.771L9.438,99.758z"/>
+	<path id="path4619" sodipodi:nodetypes="cccccccccccccc" inkscape:connector-curvature="0" fill="#A9A9A9" d="M114.562,99.758
+		L45.854,33.11l4.466-4.81l6.527-19.926l-18.551,6.527l-4.81,3.779l-4.81-4.81L16.996,26.239l6.184,4.81L9.438,45.134l12.711,14.429
+		l14.772-16.147l65.274,70.771L114.562,99.758z"/>
+	<path id="path5256" sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" fill="#6E6E6E" d="M10.96,44.693l27.577-28.285
+		l15.557-5.657l-5.657,17.324L22.274,56.714L10.96,44.693z"/>
+	<path id="path5258" sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" fill="#6E6E6E" d="M69.297,10.398l16.264,6.718
+		l26.162,27.931l-9.546,11.667L74.953,27.723L69.297,10.398z"/>
+</g>
+<image overflow="visible" width="297" height="300" xlink:href="../icons/black-leaf-md.png"  transform="matrix(0.2629 0 0 0.2569 24.9614 31.5562)">
+</image>
+</svg>
