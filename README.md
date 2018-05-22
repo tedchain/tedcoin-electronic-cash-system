@@ -8,11 +8,14 @@ Copyright (c) 2014-2018 TedLab Sciences Ltd
 
 Introduction
 ---------------------
-Tedcoin is a peer-to-peer electronic cash system that is
-completely decentralized, without the need for a central server or trusted
-parties.  Users hold the crypto keys to their own money and transact directly
-with each other, with the help of a P2P network to check for double-spending.
- 
+Tedcoin is a peer-to-peer electronic cash system that is completely decentralized, without the need for a central server or trusted parties.  Users hold the crypto keys to their own money and transact directly with each other, with the help of a P2P network to check for double-spending.
+
+Tedcoin is an innovative, secure and energy efficient PoW/PoS coin. It uses a faster PoW distribution mechanism to distribute the initial coins, then after 5 weeks the coin is basically transferred to a pure PoS coin, where the generation of the coin is mainly through the PoS interests.
+
+Tedcoin also adopt a variable PoS rate, which gives the highest payout at 20% the first year, then decrease 5% per year until the 4th year it reaches annual interest rate of 5%, then it will remain at this rate.
+
+Because after 5 weeks it is basically a pure PoS coin, it does not need to be intensively mined, as the PoW payout will remain the minimum. Most coins will be generated through PoS, thus it is a coin that will save a lot of energy compared to other coins.
+
 For more information, as well as an immediately useable, binary version of
 the Tedcoin client sofware, see http://www.tedchain.network
 
@@ -31,13 +34,9 @@ Unpack the files into a directory and run:
 
 Building Tedcoin
 ----------------
-See doc/readme-qt.rst for instructions on building Tedcoin-Qt,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of Tedcoin.
+See `doc/readme-qt.rst` for instructions on building Tedcoin-Qt, the intended-for-end-users, nice-graphical-interface, reference implementation of Tedcoin.
 
-See doc/build-*.txt for instructions on building tedcoind,
-the intended-for-services, no-graphical-interface, reference
-implementation of Tedcoin.
+See `doc/build-*.txt` for instructions on building tedcoind, the intended-for-services, no-graphical-interface, reference implementation of Tedcoin.
 
 P2Pool Settings
 ----------------
@@ -112,43 +111,29 @@ Add the following information to your tedcoin.conf file
 License
 -------
 
-Tedcoin is released under the terms of the MIT license. See `COPYING` for more
-information or see http://opensource.org/licenses/MIT.
+Tedcoin is released under the terms of the MIT license. See `COPYING` for more information or see http://opensource.org/licenses/MIT.
 
 Development process
 -------------------
 
-Developers work in their own trees, then submit pull requests when they think
-their feature or bug fix is ready.
+Developers work in their own trees, then submit pull requests when they think their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Tedcoin
-development team members simply pulls it.
+If it is a simple/trivial/non-controversial change, then one of the Tedcoin development team members simply pulls it.
 
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development).
+If it is a *more complicated or potentially controversial* change, then the patch submitter will be asked to start a discussion (if they haven't already) on the [mailing list](http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development).
 
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
-controversial.
+The patch will be accepted if there is broad consensus that it is a good thing. Developers should expect to rework and resubmit patches if the code doesn't match the project's coding conventions (see `doc/coding.txt`) or are controversial.
 
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of Tedcoin.
+The `master` branch is regularly built and tested, but is not guaranteed to be completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created regularly to indicate new official, stable release versions of Tedcoin.
 
 Testing
 -------
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
+Testing and code review is the bottleneck for development; we get more pull requests than we can review and test. Please be patient and help out, and remember this is a security-critical project where any mistake might cost people lots of money.
 
 ### Automated Testing
 
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code.
+Developers are strongly encouraged to write unit tests for new code, and to submit new unit tests for old code.
 
 Unit tests for the core code are in `src/test/`. To compile and run them:
 
