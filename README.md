@@ -20,7 +20,7 @@ Setup
 ---------------------
 You need the Qt4 run-time libraries to run Tedcoin-Qt. On Debian or Ubuntu:
 
-	`sudo apt-get install libqtgui4`
+	sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
 
@@ -64,9 +64,6 @@ p2pool/networks.py
             VERSION_CHECK=lambda v: True,
         ),
 
-
-
-
 p2pool/bitcoin/networks.py
 
     tedcoin=math.Object(
@@ -97,20 +94,20 @@ Blockhain won't sync?
 ---------------------
 Add the following information to your tedcoin.conf file
 
-addnode=162.243.214.135
-addnode=213.95.21.24
-addnode=88.198.110.120
-addnode=91.121.85.62
-addnode=188.226.135.210
-addnode=162.243.227.221
-addnode=5.255.66.44
-addnode=23.253.70.235
-addnode=162.243.224.78
-addnode=172.245.21.210
-addnode=162.242.156.243
-addnode=209.141.39.184
-addnode=23.253.74.25
-addnode=23.21.136.204
+	addnode=162.243.214.135
+	addnode=213.95.21.24
+	addnode=88.198.110.120
+	addnode=91.121.85.62
+	addnode=188.226.135.210
+	addnode=162.243.227.221
+	addnode=5.255.66.44
+	addnode=23.253.70.235
+	addnode=162.243.224.78
+	addnode=172.245.21.210
+	addnode=162.242.156.243
+	addnode=209.141.39.184
+	addnode=23.253.74.25
+	addnode=23.21.136.204
 
 License
 -------
@@ -162,15 +159,3 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
     ./tedcoin-qt_test
-
-Other Pages
----------------------
-- [Unix Build Notes](build-unix.md)
-- [OSX Build Notes](build-osx.md)
-- [Windows Build Notes](build-msw.md)
-- [Coding Guidelines](coding.md)
-- [Release Process](release-process.md)
-- [Release Notes](release-notes.md)
-- [Multiwallet Qt Development](multiwallet-qt.md)
-- [Unit Tests](unit-tests.md)
-- [Translation Process](translation_process.md)
