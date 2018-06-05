@@ -39,12 +39,11 @@ IPv6 support may be disabled by setting:
 	USE_IPV6=0    Disable IPv6 support
 
 Licenses of statically linked libraries:
- Berkeley DB   New BSD license with additional requirement that linked
-               software must be free open source
- Boost         MIT-like license
- miniupnpc     New (3-clause) BSD license
+* Berkeley DB: New BSD license with additional requirement that linked software must be free open source
+* Boost: MIT-like license
+* miniupnpc: New (3-clause) BSD license
 
-- Versions used in this release:
+-  Versions used in this release:
 -  GCC           4.3.3
 -  OpenSSL       1.0.1c
 -  Berkeley DB   4.8.30.NC
