@@ -116,27 +116,27 @@ To help make your tedcoin installation more secure by making certain attacks imp
 
 1) Position Independent Executable: Build position independent code to take advantage of Address Space Layout Randomization offered by some kernels. An attacker who is able to cause execution of code at an arbitrary memory location is thwarted if he doesn't know where anything useful is located. The stack and heap are randomly located by default but this allows the code section to be randomly located as well.
 
-On an Amd64 processor where a library was not compiled with -fPIC, this will cause an error such as: "relocation R_X86_64_32 against `......' can not be used when making a shared object;"
+	On an Amd64 processor where a library was not compiled with -fPIC, this will cause an error such as: "relocation R_X86_64_32 against `......' can not be used when making a shared object;"
 
-To build with PIE, use:
+	To build with PIE, use:
 
-    make -f makefile.unix ... -e PIE=1
+		make -f makefile.unix ... -e PIE=1
 
-To test that you have built PIE executable, install scanelf, part of paxutils, and use:
+	To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
     	scanelf -e ./tedcoin
 
-The output should contain: TYPE ET_DYN
+	The output should contain: TYPE ET_DYN
 
 2) Non-executable Stack: If the stack is executable then trivial stack based buffer overflow exploits are possible if vulnerable buffers are found. By default, bitcoin should be built with a non-executable stack but if one of the libraries it uses asks for an executable stack or someone makes a mistake and uses a compiler extension which requires an executable stack, it will silently build an executable without the non-executable stack protection.
 
-To verify that the stack is non-executable after compiling use:
+	To verify that the stack is non-executable after compiling use:
     
-	`scanelf -e ./tedcoin`
+		`scanelf -e ./tedcoin`
 
-The output should contain:
+	The output should contain:
 	
-	STK/REL/PTL
-	RW- R-- RW-
+		STK/REL/PTL
+		RW- R-- RW-
 
-The STK RW- means that the stack is readable and writeable but not executable.
+	The STK RW- means that the stack is readable and writeable but not executable.
