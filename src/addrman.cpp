@@ -33,7 +33,7 @@ int CAddrInfo::GetNewBucket(const std::vector<unsigned char> &nKey, const CNetAd
 
 bool CAddrInfo::IsTerrible(int64 nNow) const
 {
-    if (nLastTry && nLastTry >= nNow-60) // never remove things tried the last minute
+    if (nLastTry && nLastTry >= nNow-60) // never remove things tried the last minute.
         return false;
 
     if (nTime > nNow + 10*60) // came in a flying DeLorean
