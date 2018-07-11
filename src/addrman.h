@@ -17,7 +17,7 @@
 class CAddrInfo : public CAddress
 {
 private:
-    // where knowledge about this address first came from
+    // where knowledge about this address first came from.
     CNetAddr source;
 
     // last successful connection by us
